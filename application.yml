@@ -1,0 +1,14 @@
+redis:
+  addr: 192.168.1.156:6379
+  db: 5
+  password: system
+mongo:
+  server: 192.168.1.156
+  user: root
+  port: 27017  
+  password: system
+stock:
+  run-wait: 12
+  init-stock: false
+  init-stock-code: false
+  init-dapan: false
